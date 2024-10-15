@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|c:\\users\\msi\\downloads\\psmchangshuenver2\\psmchangshuenver2\\sources\\psm_mes\\psm_mes\\forms\\source\\source2\\pfp23517.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\source\\source2\\pfp23517.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\modules\\isolation\\m_spread.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\modules\\isolation\\m_spread.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\peaceform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\peaceform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\selectlabeltextlable.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\selectlabeltextlable.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|c:\\users\\msi\\downloads\\psmchangshuenver2\\psmchangshuenver2\\sources\\psm_mes\\psm_mes\\forms\\isud\\source2\\isud2351d.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\isud\\source2\\isud2351d.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|c:\\users\\msi\\downloads\\psmchangshuenver2\\psmchangshuenver2\\sources\\psm_mes\\psm_mes\\forms\\isud\\source2\\isud2351d.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\isud\\source2\\isud2351d.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|c:\\users\\msi\\downloads\\psmchangshuenver2\\psmchangshuenver2\\sources\\psm_mes\\psm_mes\\modules\\tables\\table9\\dim_k9916.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\modules\\tables\\table9\\dim_k9916.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\peaceform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\peaceform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\peaceform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\peaceform.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\forms\\source\\source2\\pfp26515.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\source\\source2\\pfp26515.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\forms\\source\\source2\\pfp26515.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\source\\source2\\pfp26515.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\selectlabeltext.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\selectlabeltext.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\selectpeacecallr.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\selectpeacecallr.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\selectpeacecombo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\selectpeacecombo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\single\\selectpeacetabcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\single\\selectpeacetabcontrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\controls\\usercontrols\\multi\\gadget003.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\controls\\usercontrols\\multi\\gadget003.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\psm_mes\\forms\\source\\source7\\pfp71061.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{83FB4029-3D71-4EDE-8DAE-57645F983627}|PSM_MES\\PSM_MES.vbproj|solutionrelative:psm_mes\\forms\\source\\source7\\pfp71061.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PFP23517.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP23517.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Source\\Source2\\PFP23517.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP23517.vb",
+              "RelativeToolTip": "PSM_MES\\Forms\\Source\\Source2\\PFP23517.vb",
+              "ViewState": "AQIAAIUBAAAAAAAAAAAowJ4BAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-04T08:00:39.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISUD2351D.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "RelativeToolTip": "PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAgwBsBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-04T07:45:45.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISUD2351D.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Forms\\Isud\\Source2\\ISUD2351D.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-04T07:45:42.478Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DIM_K9916.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Modules\\Tables\\Table9\\DIM_K9916.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Modules\\Tables\\Table9\\DIM_K9916.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Modules\\Tables\\Table9\\DIM_K9916.vb",
+              "RelativeToolTip": "PSM_MES\\Modules\\Tables\\Table9\\DIM_K9916.vb",
+              "ViewState": "AQIAAGwCAAAAAAAAAAAAwHoCAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T09:24:18.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "M_Spread.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Modules\\Isolation\\M_Spread.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Modules\\Isolation\\M_Spread.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Modules\\Isolation\\M_Spread.vb",
+              "RelativeToolTip": "PSM_MES\\Modules\\Isolation\\M_Spread.vb",
+              "ViewState": "AQIAAGwFAAAAAAAAAAAQwG8FAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:40:34.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PFP26515.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "RelativeToolTip": "PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwGAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:40:06.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PFP26515.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Forms\\Source\\Source2\\PFP26515.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:40:02.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PeaceForm.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAQwI0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:35:38.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectLabelTextLable.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelTextLable.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelTextLable.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelTextLable.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelTextLable.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:39.962Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SelectPeaceCalLR.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCalLR.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCalLR.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCalLR.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCalLR.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:36.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectLabelText.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelText.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelText.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelText.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectLabelText.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:24.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeaceForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:30:29.105Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SelectPeaceCombo.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCombo.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCombo.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCombo.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceCombo.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:33.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PeaceForm.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.Designer.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.Designer.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.Designer.vb",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\PeaceForm.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:30:36.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SelectPeaceTabControl.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceTabControl.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceTabControl.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceTabControl.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Single\\SelectPeaceTabControl.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:29.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Gadget003.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Multi\\Gadget003.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Controls\\Usercontrols\\Multi\\Gadget003.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Controls\\Usercontrols\\Multi\\Gadget003.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Controls\\Usercontrols\\Multi\\Gadget003.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T08:34:13.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PFP71061.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source7\\PFP71061.vb",
+              "RelativeDocumentMoniker": "PSM_MES\\Forms\\Source\\Source7\\PFP71061.vb",
+              "ToolTip": "C:\\Users\\MSI\\Downloads\\PSMChangShuenVer2\\PSMChangShuenVer2\\Sources\\PSM_MES\\PSM_MES\\Forms\\Source\\Source7\\PFP71061.vb [Design]",
+              "RelativeToolTip": "PSM_MES\\Forms\\Source\\Source7\\PFP71061.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-30T07:58:59.57Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

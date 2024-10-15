@@ -1,0 +1,7 @@
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\bin\Debug\PSMSyncData.exe.config
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\bin\Debug\PSMSyncData.exe
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\bin\Debug\PSMSyncData.pdb
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\obj\Debug\PSMSyncData.Properties.Resources.resources
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\obj\Debug\SyncSqlData.csproj.GenerateResource.Cache
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\obj\Debug\PSMSyncData.exe
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\SyncSqlData\obj\Debug\PSMSyncData.pdb

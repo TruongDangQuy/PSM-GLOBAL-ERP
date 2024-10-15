@@ -1,0 +1,1759 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class ISUD7360A
+    Inherits PeaceForm_ISUD
+    'Inherits PeaceForm_ISUD
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim EnhancedScrollBarRenderer1 As FarPoint.Win.Spread.EnhancedScrollBarRenderer = New FarPoint.Win.Spread.EnhancedScrollBarRenderer()
+        Dim NamedStyle1 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("DataAreaDefault")
+        Dim GeneralCellType1 As FarPoint.Win.Spread.CellType.GeneralCellType = New FarPoint.Win.Spread.CellType.GeneralCellType()
+        Dim NamedStyle2 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("Style2")
+        Dim BevelBorder1 As FarPoint.Win.BevelBorder = New FarPoint.Win.BevelBorder(FarPoint.Win.BevelBorderType.Lowered)
+        Dim TextCellType1 As FarPoint.Win.Spread.CellType.TextCellType = New FarPoint.Win.Spread.CellType.TextCellType()
+        Dim NamedStyle3 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("Style3")
+        Dim BevelBorder2 As FarPoint.Win.BevelBorder = New FarPoint.Win.BevelBorder(FarPoint.Win.BevelBorderType.Lowered)
+        Dim TextCellType2 As FarPoint.Win.Spread.CellType.TextCellType = New FarPoint.Win.Spread.CellType.TextCellType()
+        Dim NamedStyle4 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("Style1")
+        Dim BevelBorder3 As FarPoint.Win.BevelBorder = New FarPoint.Win.BevelBorder(FarPoint.Win.BevelBorderType.Lowered)
+        Dim TextCellType3 As FarPoint.Win.Spread.CellType.TextCellType = New FarPoint.Win.Spread.CellType.TextCellType()
+        Dim NamedStyle5 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("Style4")
+        Dim BevelBorder4 As FarPoint.Win.BevelBorder = New FarPoint.Win.BevelBorder(FarPoint.Win.BevelBorderType.Lowered)
+        Dim TextCellType4 As FarPoint.Win.Spread.CellType.TextCellType = New FarPoint.Win.Spread.CellType.TextCellType()
+        Dim NamedStyle6 As FarPoint.Win.Spread.NamedStyle = New FarPoint.Win.Spread.NamedStyle("Style5")
+        Dim GeneralCellType2 As FarPoint.Win.Spread.CellType.GeneralCellType = New FarPoint.Win.Spread.CellType.GeneralCellType()
+        Dim SpreadSkin1 As FarPoint.Win.Spread.SpreadSkin = New FarPoint.Win.Spread.SpreadSkin()
+        Dim EnhancedFocusIndicatorRenderer1 As FarPoint.Win.Spread.EnhancedFocusIndicatorRenderer = New FarPoint.Win.Spread.EnhancedFocusIndicatorRenderer()
+        Dim EnhancedInterfaceRenderer1 As FarPoint.Win.Spread.EnhancedInterfaceRenderer = New FarPoint.Win.Spread.EnhancedInterfaceRenderer()
+        Dim EnhancedScrollBarRenderer2 As FarPoint.Win.Spread.EnhancedScrollBarRenderer = New FarPoint.Win.Spread.EnhancedScrollBarRenderer()
+        Dim EnhancedScrollBarRenderer3 As FarPoint.Win.Spread.EnhancedScrollBarRenderer = New FarPoint.Win.Spread.EnhancedScrollBarRenderer()
+        Dim Vs1_InputMapWhenFocusedNormal As FarPoint.Win.Spread.InputMap
+        Dim Vs1_InputMapWhenFocusedSingleSelect As FarPoint.Win.Spread.InputMap
+        Dim Vs1_InputMapWhenAncestorOfFocusedNormal As FarPoint.Win.Spread.InputMap
+        Dim Vs1_InputMapWhenAncestorOfFocusedSingleSelect As FarPoint.Win.Spread.InputMap
+        Dim TextCellType5 As FarPoint.Win.Spread.CellType.TextCellType = New FarPoint.Win.Spread.CellType.TextCellType()
+        Me.Frame1 = New PSMGlobal.PeacePanel(Me.components)
+        Me.Tlp_1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.FlowLayoutPanel1 = New PSMGlobal.PeacePanel(Me.components)
+        Me.txt_cdTax3 = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_cdSubProcess = New PSMGlobal.SelectPeaceHLPButton()
+        Me.tlt_CheckUse = New PSMGlobal.PeaceLabel(Me.components)
+        Me.PeacePanel4 = New PSMGlobal.PeacePanel(Me.components)
+        Me.opt_XCHK1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.opt_XCHK0 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.txt_cdPaymentTime = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_cdPaymentDay = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_cdPaymentTerm = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_DateExchange = New PSMGlobal.SelectPeaceCalSin()
+        Me.txt_PriceExchange = New PSMGlobal.SelectLabelText()
+        Me.txt_DateAccept = New PSMGlobal.SelectPeaceCalSin()
+        Me.pan_ioType = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckIOType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckIOType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.txt_cdUnitPrice = New PSMGlobal.SelectPeaceHLPButton()
+        Me.pcl_CheckField = New DevExpress.XtraEditors.PanelControl()
+        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.PeaceLabel6 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.PeaceLabel24 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.pan_MarketType = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckMarketType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckMarketType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.PeaceLabel1 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.pan_Process = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckProcessType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckProcessType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.PeaceLabel5 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.tit_Use = New PSMGlobal.PeaceLabel(Me.components)
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckRelationType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckRelationType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.pan_FabricType = New System.Windows.Forms.TableLayoutPanel()
+        Me.rad_CheckMaterialType2 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.rad_CheckMaterialType1 = New PSMGlobal.PeaceRadioButton(Me.components)
+        Me.PeaceLabel2 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.cmb_CheckInPurchasingOrder = New PSMGlobal.SelectPeaceCombo()
+        Me.cmb_CheckOutPurchasingOrder = New PSMGlobal.SelectPeaceCombo()
+        Me.PeaceLabel3 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.txt_cdDeliveryTerm = New PSMGlobal.SelectPeaceHLPButton()
+        Me.PeaceLabel4 = New PSMGlobal.PeaceLabel(Me.components)
+        Me.txt_Tolerance = New PSMGlobal.SelectLabelText()
+        Me.txt_ContractNo = New PSMGlobal.SelectLabelText()
+        Me.txt_cdOrigin = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_cdBuyingType = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_Remark = New PSMGlobal.SelectLabelText()
+        Me.txt_ContractID = New PSMGlobal.SelectLabelText()
+        Me.txt_CustomerCode = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_cdPaymentCondition = New PSMGlobal.SelectPeaceHLPButton()
+        Me.txt_InchargePurchasing = New PSMGlobal.SelectPeaceHLPButton()
+        Me.Vs1 = New PSMGlobal.PeaceFarpoint()
+        Me.Vs1_Sheet1 = New FarPoint.Win.Spread.SheetView()
+        Vs1_InputMapWhenFocusedNormal = New FarPoint.Win.Spread.InputMap()
+        Vs1_InputMapWhenFocusedSingleSelect = New FarPoint.Win.Spread.InputMap()
+        Vs1_InputMapWhenAncestorOfFocusedNormal = New FarPoint.Win.Spread.InputMap()
+        Vs1_InputMapWhenAncestorOfFocusedSingleSelect = New FarPoint.Win.Spread.InputMap()
+        CType(Me.Frame1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Frame1.SuspendLayout()
+        Me.Tlp_1.SuspendLayout()
+        CType(Me.FlowLayoutPanel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.FlowLayoutPanel1.SuspendLayout()
+        CType(Me.PeacePanel4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PeacePanel4.SuspendLayout()
+        Me.pan_ioType.SuspendLayout()
+        CType(Me.pcl_CheckField, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pcl_CheckField.SuspendLayout()
+        Me.TableLayoutPanel2.SuspendLayout()
+        Me.pan_MarketType.SuspendLayout()
+        Me.pan_Process.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
+        Me.pan_FabricType.SuspendLayout()
+        CType(Me.Vs1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Vs1_Sheet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Frame1
+        '
+        Me.Frame1.Code = ""
+        Me.Frame1.Controls.Add(Me.Tlp_1)
+        Me.Frame1.Data = ""
+        Me.Frame1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Frame1.Location = New System.Drawing.Point(0, 38)
+        Me.Frame1.Name = "Frame1"
+        Me.Frame1.Size = New System.Drawing.Size(1264, 643)
+        Me.Frame1.TabIndex = 0
+        Me.Frame1.Tag = ""
+        '
+        'Tlp_1
+        '
+        Me.Tlp_1.ColumnCount = 1
+        Me.Tlp_1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.Tlp_1.Controls.Add(Me.FlowLayoutPanel1, 0, 0)
+        Me.Tlp_1.Controls.Add(Me.Vs1, 0, 1)
+        Me.Tlp_1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Tlp_1.Location = New System.Drawing.Point(2, 2)
+        Me.Tlp_1.Name = "Tlp_1"
+        Me.Tlp_1.RowCount = 2
+        Me.Tlp_1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 244.0!))
+        Me.Tlp_1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.Tlp_1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Tlp_1.Size = New System.Drawing.Size(1260, 639)
+        Me.Tlp_1.TabIndex = 274
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.FlowLayoutPanel1.Code = ""
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdTax3)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdSubProcess)
+        Me.FlowLayoutPanel1.Controls.Add(Me.tlt_CheckUse)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PeacePanel4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdPaymentTime)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdPaymentDay)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdPaymentTerm)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_DateExchange)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_PriceExchange)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_DateAccept)
+        Me.FlowLayoutPanel1.Controls.Add(Me.pan_ioType)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdUnitPrice)
+        Me.FlowLayoutPanel1.Controls.Add(Me.pcl_CheckField)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PeaceLabel3)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdDeliveryTerm)
+        Me.FlowLayoutPanel1.Controls.Add(Me.PeaceLabel4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_Tolerance)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_ContractNo)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdOrigin)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdBuyingType)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_Remark)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_ContractID)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_CustomerCode)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_cdPaymentCondition)
+        Me.FlowLayoutPanel1.Controls.Add(Me.txt_InchargePurchasing)
+        Me.FlowLayoutPanel1.Data = ""
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 3)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(1254, 238)
+        Me.FlowLayoutPanel1.TabIndex = 0
+        Me.FlowLayoutPanel1.Tag = ""
+        '
+        'txt_cdTax3
+        '
+        Me.txt_cdTax3.BackYesno = False
+        Me.txt_cdTax3.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdTax3.ButtonEnabled = True
+        Me.txt_cdTax3.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_cdTax3.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdTax3.ButtonName = ""
+        Me.txt_cdTax3.ButtonTitle = "Tax"
+        Me.txt_cdTax3.Code = ""
+        Me.txt_cdTax3.Data = ""
+        Me.txt_cdTax3.DataDecimal = 0
+        Me.txt_cdTax3.DataLen = 0
+        Me.txt_cdTax3.DataValue = 0
+        Me.txt_cdTax3.Layoutpercent = New Decimal(New Integer() {45, 0, 0, 131072})
+        Me.txt_cdTax3.Location = New System.Drawing.Point(999, 83)
+        Me.txt_cdTax3.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdTax3.Name = "txt_cdTax3"
+        Me.txt_cdTax3.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdTax3.Size = New System.Drawing.Size(252, 24)
+        Me.txt_cdTax3.TabIndex = 275
+        Me.txt_cdTax3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdTax3.TextBoxAutoComplete = False
+        Me.txt_cdTax3.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdTax3.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdTax3.TextEnabled = True
+        Me.txt_cdTax3.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdTax3.TextMaxLength = 32767
+        Me.txt_cdTax3.TextMultiLine = False
+        Me.txt_cdTax3.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdTax3.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdTax3.UseSendTab = True
+        '
+        'txt_cdSubProcess
+        '
+        Me.txt_cdSubProcess.BackYesno = False
+        Me.txt_cdSubProcess.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdSubProcess.ButtonEnabled = True
+        Me.txt_cdSubProcess.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.txt_cdSubProcess.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdSubProcess.ButtonName = ""
+        Me.txt_cdSubProcess.ButtonTitle = "Process"
+        Me.txt_cdSubProcess.Code = ""
+        Me.txt_cdSubProcess.Data = ""
+        Me.txt_cdSubProcess.DataDecimal = 1
+        Me.txt_cdSubProcess.DataLen = 0
+        Me.txt_cdSubProcess.DataValue = 1
+        Me.txt_cdSubProcess.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdSubProcess.Location = New System.Drawing.Point(5, 57)
+        Me.txt_cdSubProcess.Margin = New System.Windows.Forms.Padding(1, 1, 171, 1)
+        Me.txt_cdSubProcess.Name = "txt_cdSubProcess"
+        Me.txt_cdSubProcess.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdSubProcess.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdSubProcess.TabIndex = 273
+        Me.txt_cdSubProcess.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdSubProcess.TextBoxAutoComplete = True
+        Me.txt_cdSubProcess.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdSubProcess.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdSubProcess.TextEnabled = True
+        Me.txt_cdSubProcess.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdSubProcess.TextMaxLength = 32767
+        Me.txt_cdSubProcess.TextMultiLine = False
+        Me.txt_cdSubProcess.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdSubProcess.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdSubProcess.UseSendTab = True
+        '
+        'tlt_CheckUse
+        '
+        Me.tlt_CheckUse.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.tlt_CheckUse.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tlt_CheckUse.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.tlt_CheckUse.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.tlt_CheckUse.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.tlt_CheckUse.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.tlt_CheckUse.ButtonTitle = Nothing
+        Me.tlt_CheckUse.Code = ""
+        Me.tlt_CheckUse.Data = ""
+        Me.tlt_CheckUse.DTDec = 0
+        Me.tlt_CheckUse.DTLen = 0
+        Me.tlt_CheckUse.DTValue = 0
+        Me.tlt_CheckUse.Location = New System.Drawing.Point(999, 161)
+        Me.tlt_CheckUse.Margin = New System.Windows.Forms.Padding(1)
+        Me.tlt_CheckUse.Name = "tlt_CheckUse"
+        Me.tlt_CheckUse.NoClear = False
+        Me.tlt_CheckUse.Size = New System.Drawing.Size(110, 24)
+        Me.tlt_CheckUse.TabIndex = 272
+        Me.tlt_CheckUse.Tag = ""
+        Me.tlt_CheckUse.Text = "Use"
+        Me.tlt_CheckUse.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        '
+        'PeacePanel4
+        '
+        Me.PeacePanel4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeacePanel4.Code = ""
+        Me.PeacePanel4.Controls.Add(Me.opt_XCHK1)
+        Me.PeacePanel4.Controls.Add(Me.opt_XCHK0)
+        Me.PeacePanel4.Data = ""
+        Me.PeacePanel4.Location = New System.Drawing.Point(1113, 161)
+        Me.PeacePanel4.Name = "PeacePanel4"
+        Me.PeacePanel4.Size = New System.Drawing.Size(138, 24)
+        Me.PeacePanel4.TabIndex = 271
+        Me.PeacePanel4.Tag = ""
+        '
+        'opt_XCHK1
+        '
+        Me.opt_XCHK1.AutoSize = True
+        Me.opt_XCHK1.ButtonTitle = Nothing
+        Me.opt_XCHK1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.opt_XCHK1.Location = New System.Drawing.Point(76, 3)
+        Me.opt_XCHK1.Margin = New System.Windows.Forms.Padding(1)
+        Me.opt_XCHK1.Name = "opt_XCHK1"
+        Me.opt_XCHK1.Size = New System.Drawing.Size(40, 18)
+        Me.opt_XCHK1.TabIndex = 1
+        Me.opt_XCHK1.Text = "No"
+        Me.opt_XCHK1.UseVisualStyleBackColor = True
+        '
+        'opt_XCHK0
+        '
+        Me.opt_XCHK0.AutoSize = True
+        Me.opt_XCHK0.ButtonTitle = Nothing
+        Me.opt_XCHK0.Checked = True
+        Me.opt_XCHK0.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.opt_XCHK0.Location = New System.Drawing.Point(7, 3)
+        Me.opt_XCHK0.Margin = New System.Windows.Forms.Padding(1)
+        Me.opt_XCHK0.Name = "opt_XCHK0"
+        Me.opt_XCHK0.Size = New System.Drawing.Size(45, 18)
+        Me.opt_XCHK0.TabIndex = 0
+        Me.opt_XCHK0.TabStop = True
+        Me.opt_XCHK0.Text = "Yes"
+        Me.opt_XCHK0.UseVisualStyleBackColor = True
+        '
+        'txt_cdPaymentTime
+        '
+        Me.txt_cdPaymentTime.BackYesno = False
+        Me.txt_cdPaymentTime.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdPaymentTime.ButtonEnabled = True
+        Me.txt_cdPaymentTime.ButtonFont = Nothing
+        Me.txt_cdPaymentTime.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTime.ButtonName = "Const_PaymentTime"
+        Me.txt_cdPaymentTime.ButtonTitle = "Payment Time"
+        Me.txt_cdPaymentTime.Code = ""
+        Me.txt_cdPaymentTime.Data = ""
+        Me.txt_cdPaymentTime.DataDecimal = 0
+        Me.txt_cdPaymentTime.DataLen = 0
+        Me.txt_cdPaymentTime.DataValue = 1
+        Me.txt_cdPaymentTime.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdPaymentTime.Location = New System.Drawing.Point(323, 135)
+        Me.txt_cdPaymentTime.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdPaymentTime.Name = "txt_cdPaymentTime"
+        Me.txt_cdPaymentTime.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdPaymentTime.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdPaymentTime.TabIndex = 10
+        Me.txt_cdPaymentTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdPaymentTime.TextBoxAutoComplete = False
+        Me.txt_cdPaymentTime.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTime.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdPaymentTime.TextEnabled = True
+        Me.txt_cdPaymentTime.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTime.TextMaxLength = 32767
+        Me.txt_cdPaymentTime.TextMultiLine = False
+        Me.txt_cdPaymentTime.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdPaymentTime.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdPaymentTime.UseSendTab = True
+        Me.txt_cdPaymentTime.Visible = False
+        '
+        'txt_cdPaymentDay
+        '
+        Me.txt_cdPaymentDay.BackYesno = False
+        Me.txt_cdPaymentDay.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdPaymentDay.ButtonEnabled = True
+        Me.txt_cdPaymentDay.ButtonFont = Nothing
+        Me.txt_cdPaymentDay.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentDay.ButtonName = "Const_PaymentDay"
+        Me.txt_cdPaymentDay.ButtonTitle = "Payment Day"
+        Me.txt_cdPaymentDay.Code = ""
+        Me.txt_cdPaymentDay.Data = ""
+        Me.txt_cdPaymentDay.DataDecimal = 0
+        Me.txt_cdPaymentDay.DataLen = 0
+        Me.txt_cdPaymentDay.DataValue = 1
+        Me.txt_cdPaymentDay.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdPaymentDay.Location = New System.Drawing.Point(323, 161)
+        Me.txt_cdPaymentDay.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdPaymentDay.Name = "txt_cdPaymentDay"
+        Me.txt_cdPaymentDay.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdPaymentDay.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdPaymentDay.TabIndex = 11
+        Me.txt_cdPaymentDay.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdPaymentDay.TextBoxAutoComplete = False
+        Me.txt_cdPaymentDay.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentDay.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdPaymentDay.TextEnabled = True
+        Me.txt_cdPaymentDay.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentDay.TextMaxLength = 32767
+        Me.txt_cdPaymentDay.TextMultiLine = False
+        Me.txt_cdPaymentDay.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdPaymentDay.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdPaymentDay.UseSendTab = True
+        Me.txt_cdPaymentDay.Visible = False
+        '
+        'txt_cdPaymentTerm
+        '
+        Me.txt_cdPaymentTerm.BackYesno = False
+        Me.txt_cdPaymentTerm.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdPaymentTerm.ButtonEnabled = True
+        Me.txt_cdPaymentTerm.ButtonFont = Nothing
+        Me.txt_cdPaymentTerm.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTerm.ButtonName = "Const_PaymentTerm"
+        Me.txt_cdPaymentTerm.ButtonTitle = "Payment Term"
+        Me.txt_cdPaymentTerm.Code = ""
+        Me.txt_cdPaymentTerm.Data = ""
+        Me.txt_cdPaymentTerm.DataDecimal = 0
+        Me.txt_cdPaymentTerm.DataLen = 0
+        Me.txt_cdPaymentTerm.DataValue = 1
+        Me.txt_cdPaymentTerm.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdPaymentTerm.Location = New System.Drawing.Point(323, 83)
+        Me.txt_cdPaymentTerm.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdPaymentTerm.Name = "txt_cdPaymentTerm"
+        Me.txt_cdPaymentTerm.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdPaymentTerm.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdPaymentTerm.TabIndex = 8
+        Me.txt_cdPaymentTerm.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdPaymentTerm.TextBoxAutoComplete = False
+        Me.txt_cdPaymentTerm.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTerm.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdPaymentTerm.TextEnabled = True
+        Me.txt_cdPaymentTerm.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentTerm.TextMaxLength = 32767
+        Me.txt_cdPaymentTerm.TextMultiLine = False
+        Me.txt_cdPaymentTerm.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdPaymentTerm.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdPaymentTerm.UseSendTab = True
+        Me.txt_cdPaymentTerm.Visible = False
+        '
+        'txt_DateExchange
+        '
+        Me.txt_DateExchange.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_DateExchange.ButtonEnabled = True
+        Me.txt_DateExchange.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.txt_DateExchange.ButtonName = Nothing
+        Me.txt_DateExchange.ButtonTitle = "Exchange Date"
+        Me.txt_DateExchange.Code = ""
+        Me.txt_DateExchange.Data = "________"
+        Me.txt_DateExchange.DataDecimal = 0
+        Me.txt_DateExchange.DataLen = 0
+        Me.txt_DateExchange.DataValue = 1
+        Me.txt_DateExchange.FormatDecimal = 0
+        Me.txt_DateExchange.FormatValue = False
+        Me.txt_DateExchange.Layoutpercent = New Decimal(New Integer() {45, 0, 0, 131072})
+        Me.txt_DateExchange.Location = New System.Drawing.Point(999, 31)
+        Me.txt_DateExchange.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_DateExchange.Name = "txt_DateExchange"
+        Me.txt_DateExchange.Size = New System.Drawing.Size(252, 24)
+        Me.txt_DateExchange.TabIndex = 13
+        Me.txt_DateExchange.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txt_DateExchange.TextBoxAutoComplete = False
+        Me.txt_DateExchange.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_DateExchange.TextEnabled = True
+        Me.txt_DateExchange.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_DateExchange.TextMaxLength = 32767
+        Me.txt_DateExchange.TextMultiLine = True
+        Me.txt_DateExchange.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        '
+        'txt_PriceExchange
+        '
+        Me.txt_PriceExchange.BackYesno = False
+        Me.txt_PriceExchange.ButtonTitle = Nothing
+        Me.txt_PriceExchange.Code = ""
+        Me.txt_PriceExchange.Data = ""
+        Me.txt_PriceExchange.DataDecimal = 0
+        Me.txt_PriceExchange.DataLen = 0
+        Me.txt_PriceExchange.DataValue = 1
+        Me.txt_PriceExchange.FormatDecimal = 0
+        Me.txt_PriceExchange.FormatValue = False
+        Me.txt_PriceExchange.LableBackColor = System.Drawing.SystemColors.Control
+        Me.txt_PriceExchange.LableEnabled = True
+        Me.txt_PriceExchange.LableFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_PriceExchange.LableForeColor = System.Drawing.Color.Empty
+        Me.txt_PriceExchange.LableTitle = "Rate"
+        Me.txt_PriceExchange.Layoutpercent = New Decimal(New Integer() {45, 0, 0, 131072})
+        Me.txt_PriceExchange.Location = New System.Drawing.Point(999, 57)
+        Me.txt_PriceExchange.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_PriceExchange.Name = "txt_PriceExchange"
+        Me.txt_PriceExchange.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_PriceExchange.Size = New System.Drawing.Size(252, 25)
+        Me.txt_PriceExchange.TabIndex = 14
+        Me.txt_PriceExchange.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txt_PriceExchange.TextBoxAutoComplete = False
+        Me.txt_PriceExchange.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_PriceExchange.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_PriceExchange.TextEnabled = True
+        Me.txt_PriceExchange.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_PriceExchange.TextMaxLength = 32767
+        Me.txt_PriceExchange.TextMultiLine = False
+        Me.txt_PriceExchange.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_PriceExchange.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_PriceExchange.UseSendTab = True
+        '
+        'txt_DateAccept
+        '
+        Me.txt_DateAccept.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_DateAccept.ButtonEnabled = True
+        Me.txt_DateAccept.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.txt_DateAccept.ButtonName = Nothing
+        Me.txt_DateAccept.ButtonTitle = "Create Date"
+        Me.txt_DateAccept.Code = ""
+        Me.txt_DateAccept.Data = "________"
+        Me.txt_DateAccept.DataDecimal = 0
+        Me.txt_DateAccept.DataLen = 0
+        Me.txt_DateAccept.DataValue = 0
+        Me.txt_DateAccept.FormatDecimal = 0
+        Me.txt_DateAccept.FormatValue = False
+        Me.txt_DateAccept.Layoutpercent = New Decimal(New Integer() {51, 0, 0, 131072})
+        Me.txt_DateAccept.Location = New System.Drawing.Point(5, 5)
+        Me.txt_DateAccept.Margin = New System.Windows.Forms.Padding(1, 1, 138, 1)
+        Me.txt_DateAccept.Name = "txt_DateAccept"
+        Me.txt_DateAccept.Size = New System.Drawing.Size(218, 24)
+        Me.txt_DateAccept.TabIndex = 0
+        Me.txt_DateAccept.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txt_DateAccept.TextBoxAutoComplete = False
+        Me.txt_DateAccept.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_DateAccept.TextEnabled = True
+        Me.txt_DateAccept.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_DateAccept.TextMaxLength = 32767
+        Me.txt_DateAccept.TextMultiLine = True
+        Me.txt_DateAccept.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        '
+        'pan_ioType
+        '
+        Me.pan_ioType.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.pan_ioType.ColumnCount = 2
+        Me.pan_ioType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_ioType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_ioType.Controls.Add(Me.rad_CheckIOType2, 1, 0)
+        Me.pan_ioType.Controls.Add(Me.rad_CheckIOType1, 0, 0)
+        Me.pan_ioType.Location = New System.Drawing.Point(162, 90)
+        Me.pan_ioType.Margin = New System.Windows.Forms.Padding(1)
+        Me.pan_ioType.Name = "pan_ioType"
+        Me.pan_ioType.RowCount = 1
+        Me.pan_ioType.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_ioType.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.pan_ioType.Size = New System.Drawing.Size(136, 24)
+        Me.pan_ioType.TabIndex = 0
+        Me.pan_ioType.Visible = False
+        '
+        'rad_CheckIOType2
+        '
+        Me.rad_CheckIOType2.AutoSize = True
+        Me.rad_CheckIOType2.ButtonTitle = Nothing
+        Me.rad_CheckIOType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckIOType2.Location = New System.Drawing.Point(71, 4)
+        Me.rad_CheckIOType2.Name = "rad_CheckIOType2"
+        Me.rad_CheckIOType2.Size = New System.Drawing.Size(61, 16)
+        Me.rad_CheckIOType2.TabIndex = 1
+        Me.rad_CheckIOType2.Text = "OutBound"
+        Me.rad_CheckIOType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckIOType1
+        '
+        Me.rad_CheckIOType1.AutoSize = True
+        Me.rad_CheckIOType1.ButtonTitle = Nothing
+        Me.rad_CheckIOType1.Checked = True
+        Me.rad_CheckIOType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckIOType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckIOType1.Name = "rad_CheckIOType1"
+        Me.rad_CheckIOType1.Size = New System.Drawing.Size(60, 16)
+        Me.rad_CheckIOType1.TabIndex = 0
+        Me.rad_CheckIOType1.TabStop = True
+        Me.rad_CheckIOType1.Text = "InBound"
+        Me.rad_CheckIOType1.UseVisualStyleBackColor = True
+        '
+        'txt_cdUnitPrice
+        '
+        Me.txt_cdUnitPrice.BackYesno = False
+        Me.txt_cdUnitPrice.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdUnitPrice.ButtonEnabled = True
+        Me.txt_cdUnitPrice.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_cdUnitPrice.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdUnitPrice.ButtonName = ""
+        Me.txt_cdUnitPrice.ButtonTitle = "Unit Price"
+        Me.txt_cdUnitPrice.Code = ""
+        Me.txt_cdUnitPrice.Data = ""
+        Me.txt_cdUnitPrice.DataDecimal = 0
+        Me.txt_cdUnitPrice.DataLen = 0
+        Me.txt_cdUnitPrice.DataValue = 0
+        Me.txt_cdUnitPrice.Layoutpercent = New Decimal(New Integer() {45, 0, 0, 131072})
+        Me.txt_cdUnitPrice.Location = New System.Drawing.Point(999, 5)
+        Me.txt_cdUnitPrice.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdUnitPrice.Name = "txt_cdUnitPrice"
+        Me.txt_cdUnitPrice.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdUnitPrice.Size = New System.Drawing.Size(252, 24)
+        Me.txt_cdUnitPrice.TabIndex = 12
+        Me.txt_cdUnitPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdUnitPrice.TextBoxAutoComplete = False
+        Me.txt_cdUnitPrice.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdUnitPrice.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdUnitPrice.TextEnabled = True
+        Me.txt_cdUnitPrice.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdUnitPrice.TextMaxLength = 32767
+        Me.txt_cdUnitPrice.TextMultiLine = False
+        Me.txt_cdUnitPrice.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdUnitPrice.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdUnitPrice.UseSendTab = True
+        '
+        'pcl_CheckField
+        '
+        Me.pcl_CheckField.Controls.Add(Me.TableLayoutPanel2)
+        Me.pcl_CheckField.Controls.Add(Me.PeaceLabel6)
+        Me.pcl_CheckField.Controls.Add(Me.PeaceLabel24)
+        Me.pcl_CheckField.Controls.Add(Me.pan_MarketType)
+        Me.pcl_CheckField.Controls.Add(Me.PeaceLabel1)
+        Me.pcl_CheckField.Controls.Add(Me.pan_Process)
+        Me.pcl_CheckField.Controls.Add(Me.PeaceLabel5)
+        Me.pcl_CheckField.Controls.Add(Me.tit_Use)
+        Me.pcl_CheckField.Controls.Add(Me.TableLayoutPanel1)
+        Me.pcl_CheckField.Controls.Add(Me.pan_FabricType)
+        Me.pcl_CheckField.Controls.Add(Me.PeaceLabel2)
+        Me.pcl_CheckField.Controls.Add(Me.cmb_CheckInPurchasingOrder)
+        Me.pcl_CheckField.Controls.Add(Me.cmb_CheckOutPurchasingOrder)
+        Me.pcl_CheckField.Location = New System.Drawing.Point(645, 5)
+        Me.pcl_CheckField.Name = "pcl_CheckField"
+        Me.pcl_CheckField.Size = New System.Drawing.Size(346, 180)
+        Me.pcl_CheckField.TabIndex = 270
+        '
+        'TableLayoutPanel2
+        '
+        Me.TableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.TableLayoutPanel2.ColumnCount = 2
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel2.Controls.Add(Me.rad_CheckType2, 0, 0)
+        Me.TableLayoutPanel2.Controls.Add(Me.rad_CheckType1, 0, 0)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(142, 26)
+        Me.TableLayoutPanel2.Margin = New System.Windows.Forms.Padding(1)
+        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.RowCount = 1
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(202, 24)
+        Me.TableLayoutPanel2.TabIndex = 263
+        '
+        'rad_CheckType2
+        '
+        Me.rad_CheckType2.AutoSize = True
+        Me.rad_CheckType2.ButtonTitle = Nothing
+        Me.rad_CheckType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckType2.Location = New System.Drawing.Point(104, 4)
+        Me.rad_CheckType2.Name = "rad_CheckType2"
+        Me.rad_CheckType2.Size = New System.Drawing.Size(68, 16)
+        Me.rad_CheckType2.TabIndex = 1
+        Me.rad_CheckType2.Text = "All Size"
+        Me.rad_CheckType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckType1
+        '
+        Me.rad_CheckType1.AutoSize = True
+        Me.rad_CheckType1.ButtonTitle = Nothing
+        Me.rad_CheckType1.Checked = True
+        Me.rad_CheckType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckType1.Name = "rad_CheckType1"
+        Me.rad_CheckType1.Size = New System.Drawing.Size(49, 16)
+        Me.rad_CheckType1.TabIndex = 0
+        Me.rad_CheckType1.TabStop = True
+        Me.rad_CheckType1.Text = "Size"
+        Me.rad_CheckType1.UseVisualStyleBackColor = True
+        '
+        'PeaceLabel6
+        '
+        Me.PeaceLabel6.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.PeaceLabel6.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.PeaceLabel6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel6.ButtonTitle = Nothing
+        Me.PeaceLabel6.Code = ""
+        Me.PeaceLabel6.Data = ""
+        Me.PeaceLabel6.DTDec = 0
+        Me.PeaceLabel6.DTLen = 0
+        Me.PeaceLabel6.DTValue = 0
+        Me.PeaceLabel6.Location = New System.Drawing.Point(2, 26)
+        Me.PeaceLabel6.Margin = New System.Windows.Forms.Padding(1)
+        Me.PeaceLabel6.Name = "PeaceLabel6"
+        Me.PeaceLabel6.NoClear = False
+        Me.PeaceLabel6.Size = New System.Drawing.Size(138, 24)
+        Me.PeaceLabel6.TabIndex = 264
+        Me.PeaceLabel6.Tag = ""
+        Me.PeaceLabel6.Text = "Check Type"
+        Me.PeaceLabel6.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        '
+        'PeaceLabel24
+        '
+        Me.PeaceLabel24.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel24.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PeaceLabel24.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel24.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel24.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel24.ButtonTitle = Nothing
+        Me.PeaceLabel24.Code = ""
+        Me.PeaceLabel24.Data = ""
+        Me.PeaceLabel24.DTDec = 0
+        Me.PeaceLabel24.DTLen = 0
+        Me.PeaceLabel24.DTValue = 0
+        Me.PeaceLabel24.Location = New System.Drawing.Point(2, 0)
+        Me.PeaceLabel24.Margin = New System.Windows.Forms.Padding(0)
+        Me.PeaceLabel24.Name = "PeaceLabel24"
+        Me.PeaceLabel24.NoClear = False
+        Me.PeaceLabel24.Size = New System.Drawing.Size(343, 22)
+        Me.PeaceLabel24.TabIndex = 0
+        Me.PeaceLabel24.Tag = ""
+        Me.PeaceLabel24.Text = "CHECK FIELD"
+        Me.PeaceLabel24.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        '
+        'pan_MarketType
+        '
+        Me.pan_MarketType.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.pan_MarketType.ColumnCount = 2
+        Me.pan_MarketType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_MarketType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_MarketType.Controls.Add(Me.rad_CheckMarketType2, 1, 0)
+        Me.pan_MarketType.Controls.Add(Me.rad_CheckMarketType1, 0, 0)
+        Me.pan_MarketType.Location = New System.Drawing.Point(143, 128)
+        Me.pan_MarketType.Margin = New System.Windows.Forms.Padding(1)
+        Me.pan_MarketType.Name = "pan_MarketType"
+        Me.pan_MarketType.RowCount = 1
+        Me.pan_MarketType.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_MarketType.Size = New System.Drawing.Size(202, 24)
+        Me.pan_MarketType.TabIndex = 5
+        Me.pan_MarketType.Visible = False
+        '
+        'rad_CheckMarketType2
+        '
+        Me.rad_CheckMarketType2.AutoSize = True
+        Me.rad_CheckMarketType2.ButtonTitle = Nothing
+        Me.rad_CheckMarketType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckMarketType2.Location = New System.Drawing.Point(104, 4)
+        Me.rad_CheckMarketType2.Name = "rad_CheckMarketType2"
+        Me.rad_CheckMarketType2.Size = New System.Drawing.Size(68, 16)
+        Me.rad_CheckMarketType2.TabIndex = 1
+        Me.rad_CheckMarketType2.Text = "Import"
+        Me.rad_CheckMarketType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckMarketType1
+        '
+        Me.rad_CheckMarketType1.AutoSize = True
+        Me.rad_CheckMarketType1.ButtonTitle = Nothing
+        Me.rad_CheckMarketType1.Checked = True
+        Me.rad_CheckMarketType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckMarketType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckMarketType1.Name = "rad_CheckMarketType1"
+        Me.rad_CheckMarketType1.Size = New System.Drawing.Size(81, 16)
+        Me.rad_CheckMarketType1.TabIndex = 0
+        Me.rad_CheckMarketType1.TabStop = True
+        Me.rad_CheckMarketType1.Text = "Domestic"
+        Me.rad_CheckMarketType1.UseVisualStyleBackColor = True
+        '
+        'PeaceLabel1
+        '
+        Me.PeaceLabel1.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.PeaceLabel1.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.PeaceLabel1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel1.ButtonTitle = Nothing
+        Me.PeaceLabel1.Code = ""
+        Me.PeaceLabel1.Data = ""
+        Me.PeaceLabel1.DTDec = 0
+        Me.PeaceLabel1.DTLen = 0
+        Me.PeaceLabel1.DTValue = 0
+        Me.PeaceLabel1.Location = New System.Drawing.Point(2, 128)
+        Me.PeaceLabel1.Margin = New System.Windows.Forms.Padding(1)
+        Me.PeaceLabel1.Name = "PeaceLabel1"
+        Me.PeaceLabel1.NoClear = False
+        Me.PeaceLabel1.Size = New System.Drawing.Size(138, 24)
+        Me.PeaceLabel1.TabIndex = 5
+        Me.PeaceLabel1.Tag = ""
+        Me.PeaceLabel1.Text = "Market Type"
+        Me.PeaceLabel1.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel1.Visible = False
+        '
+        'pan_Process
+        '
+        Me.pan_Process.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.pan_Process.ColumnCount = 2
+        Me.pan_Process.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.pan_Process.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.pan_Process.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.pan_Process.Controls.Add(Me.rad_CheckProcessType2, 0, 0)
+        Me.pan_Process.Controls.Add(Me.rad_CheckProcessType1, 0, 0)
+        Me.pan_Process.Location = New System.Drawing.Point(142, 77)
+        Me.pan_Process.Margin = New System.Windows.Forms.Padding(1)
+        Me.pan_Process.Name = "pan_Process"
+        Me.pan_Process.RowCount = 1
+        Me.pan_Process.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.pan_Process.Size = New System.Drawing.Size(202, 24)
+        Me.pan_Process.TabIndex = 3
+        Me.pan_Process.Visible = False
+        '
+        'rad_CheckProcessType2
+        '
+        Me.rad_CheckProcessType2.AutoSize = True
+        Me.rad_CheckProcessType2.ButtonTitle = Nothing
+        Me.rad_CheckProcessType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckProcessType2.Location = New System.Drawing.Point(104, 4)
+        Me.rad_CheckProcessType2.Name = "rad_CheckProcessType2"
+        Me.rad_CheckProcessType2.Size = New System.Drawing.Size(68, 16)
+        Me.rad_CheckProcessType2.TabIndex = 1
+        Me.rad_CheckProcessType2.Text = "Return"
+        Me.rad_CheckProcessType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckProcessType1
+        '
+        Me.rad_CheckProcessType1.AutoSize = True
+        Me.rad_CheckProcessType1.ButtonTitle = Nothing
+        Me.rad_CheckProcessType1.Checked = True
+        Me.rad_CheckProcessType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckProcessType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckProcessType1.Name = "rad_CheckProcessType1"
+        Me.rad_CheckProcessType1.Size = New System.Drawing.Size(67, 16)
+        Me.rad_CheckProcessType1.TabIndex = 0
+        Me.rad_CheckProcessType1.TabStop = True
+        Me.rad_CheckProcessType1.Text = "Normal"
+        Me.rad_CheckProcessType1.UseVisualStyleBackColor = True
+        '
+        'PeaceLabel5
+        '
+        Me.PeaceLabel5.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.PeaceLabel5.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.PeaceLabel5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel5.ButtonTitle = Nothing
+        Me.PeaceLabel5.Code = ""
+        Me.PeaceLabel5.Data = ""
+        Me.PeaceLabel5.DTDec = 0
+        Me.PeaceLabel5.DTLen = 0
+        Me.PeaceLabel5.DTValue = 0
+        Me.PeaceLabel5.Location = New System.Drawing.Point(2, 153)
+        Me.PeaceLabel5.Margin = New System.Windows.Forms.Padding(1)
+        Me.PeaceLabel5.Name = "PeaceLabel5"
+        Me.PeaceLabel5.NoClear = False
+        Me.PeaceLabel5.Size = New System.Drawing.Size(138, 24)
+        Me.PeaceLabel5.TabIndex = 6
+        Me.PeaceLabel5.Tag = ""
+        Me.PeaceLabel5.Text = "Relation Type"
+        Me.PeaceLabel5.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel5.Visible = False
+        '
+        'tit_Use
+        '
+        Me.tit_Use.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.tit_Use.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.tit_Use.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.tit_Use.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.tit_Use.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.tit_Use.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.tit_Use.ButtonTitle = Nothing
+        Me.tit_Use.Code = ""
+        Me.tit_Use.Data = ""
+        Me.tit_Use.DTDec = 0
+        Me.tit_Use.DTLen = 0
+        Me.tit_Use.DTValue = 0
+        Me.tit_Use.Location = New System.Drawing.Point(2, 77)
+        Me.tit_Use.Margin = New System.Windows.Forms.Padding(1)
+        Me.tit_Use.Name = "tit_Use"
+        Me.tit_Use.NoClear = False
+        Me.tit_Use.Size = New System.Drawing.Size(138, 24)
+        Me.tit_Use.TabIndex = 3
+        Me.tit_Use.Tag = ""
+        Me.tit_Use.Text = "Process Type"
+        Me.tit_Use.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        Me.tit_Use.Visible = False
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.rad_CheckRelationType2, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.rad_CheckRelationType1, 0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(143, 153)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(1)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(202, 24)
+        Me.TableLayoutPanel1.TabIndex = 6
+        Me.TableLayoutPanel1.Visible = False
+        '
+        'rad_CheckRelationType2
+        '
+        Me.rad_CheckRelationType2.AutoSize = True
+        Me.rad_CheckRelationType2.ButtonTitle = Nothing
+        Me.rad_CheckRelationType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckRelationType2.Location = New System.Drawing.Point(104, 4)
+        Me.rad_CheckRelationType2.Name = "rad_CheckRelationType2"
+        Me.rad_CheckRelationType2.Size = New System.Drawing.Size(76, 16)
+        Me.rad_CheckRelationType2.TabIndex = 1
+        Me.rad_CheckRelationType2.Text = "Request"
+        Me.rad_CheckRelationType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckRelationType1
+        '
+        Me.rad_CheckRelationType1.AutoSize = True
+        Me.rad_CheckRelationType1.ButtonTitle = Nothing
+        Me.rad_CheckRelationType1.Checked = True
+        Me.rad_CheckRelationType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckRelationType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckRelationType1.Name = "rad_CheckRelationType1"
+        Me.rad_CheckRelationType1.Size = New System.Drawing.Size(59, 16)
+        Me.rad_CheckRelationType1.TabIndex = 0
+        Me.rad_CheckRelationType1.TabStop = True
+        Me.rad_CheckRelationType1.Text = "Order"
+        Me.rad_CheckRelationType1.UseVisualStyleBackColor = True
+        '
+        'pan_FabricType
+        '
+        Me.pan_FabricType.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.pan_FabricType.ColumnCount = 2
+        Me.pan_FabricType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_FabricType.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_FabricType.Controls.Add(Me.rad_CheckMaterialType2, 1, 0)
+        Me.pan_FabricType.Controls.Add(Me.rad_CheckMaterialType1, 0, 0)
+        Me.pan_FabricType.Location = New System.Drawing.Point(143, 103)
+        Me.pan_FabricType.Margin = New System.Windows.Forms.Padding(1)
+        Me.pan_FabricType.Name = "pan_FabricType"
+        Me.pan_FabricType.RowCount = 1
+        Me.pan_FabricType.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.pan_FabricType.Size = New System.Drawing.Size(202, 24)
+        Me.pan_FabricType.TabIndex = 4
+        Me.pan_FabricType.Visible = False
+        '
+        'rad_CheckMaterialType2
+        '
+        Me.rad_CheckMaterialType2.AutoSize = True
+        Me.rad_CheckMaterialType2.ButtonTitle = Nothing
+        Me.rad_CheckMaterialType2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckMaterialType2.Location = New System.Drawing.Point(104, 4)
+        Me.rad_CheckMaterialType2.Name = "rad_CheckMaterialType2"
+        Me.rad_CheckMaterialType2.Size = New System.Drawing.Size(51, 16)
+        Me.rad_CheckMaterialType2.TabIndex = 1
+        Me.rad_CheckMaterialType2.Text = "RnD"
+        Me.rad_CheckMaterialType2.UseVisualStyleBackColor = True
+        '
+        'rad_CheckMaterialType1
+        '
+        Me.rad_CheckMaterialType1.AutoSize = True
+        Me.rad_CheckMaterialType1.ButtonTitle = Nothing
+        Me.rad_CheckMaterialType1.Checked = True
+        Me.rad_CheckMaterialType1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.rad_CheckMaterialType1.Location = New System.Drawing.Point(4, 4)
+        Me.rad_CheckMaterialType1.Name = "rad_CheckMaterialType1"
+        Me.rad_CheckMaterialType1.Size = New System.Drawing.Size(49, 16)
+        Me.rad_CheckMaterialType1.TabIndex = 0
+        Me.rad_CheckMaterialType1.TabStop = True
+        Me.rad_CheckMaterialType1.Text = "Mail"
+        Me.rad_CheckMaterialType1.UseVisualStyleBackColor = True
+        '
+        'PeaceLabel2
+        '
+        Me.PeaceLabel2.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.PeaceLabel2.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.PeaceLabel2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel2.ButtonTitle = Nothing
+        Me.PeaceLabel2.Code = ""
+        Me.PeaceLabel2.Data = ""
+        Me.PeaceLabel2.DTDec = 0
+        Me.PeaceLabel2.DTLen = 0
+        Me.PeaceLabel2.DTValue = 0
+        Me.PeaceLabel2.Location = New System.Drawing.Point(2, 103)
+        Me.PeaceLabel2.Margin = New System.Windows.Forms.Padding(1)
+        Me.PeaceLabel2.Name = "PeaceLabel2"
+        Me.PeaceLabel2.NoClear = False
+        Me.PeaceLabel2.Size = New System.Drawing.Size(138, 24)
+        Me.PeaceLabel2.TabIndex = 4
+        Me.PeaceLabel2.Tag = ""
+        Me.PeaceLabel2.Text = "Material Type"
+        Me.PeaceLabel2.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel2.Visible = False
+        '
+        'cmb_CheckInPurchasingOrder
+        '
+        Me.cmb_CheckInPurchasingOrder.BackYesno = False
+        Me.cmb_CheckInPurchasingOrder.ButtonBackColor = System.Drawing.Color.Empty
+        Me.cmb_CheckInPurchasingOrder.ButtonBorderStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmb_CheckInPurchasingOrder.ButtonEnabled = True
+        Me.cmb_CheckInPurchasingOrder.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmb_CheckInPurchasingOrder.ButtonForeColor = System.Drawing.Color.Empty
+        Me.cmb_CheckInPurchasingOrder.ButtonTitle = "Inbound Kind"
+        Me.cmb_CheckInPurchasingOrder.Code = "1"
+        Me.cmb_CheckInPurchasingOrder.CValue = "Purchasing;Return Purchasing"
+        Me.cmb_CheckInPurchasingOrder.Data = "1"
+        Me.cmb_CheckInPurchasingOrder.DataDecimal = 0
+        Me.cmb_CheckInPurchasingOrder.DataLen = 0
+        Me.cmb_CheckInPurchasingOrder.DataValue = 0
+        Me.cmb_CheckInPurchasingOrder.InSelected = 0
+        Me.cmb_CheckInPurchasingOrder.Layoutpercent = New Decimal(New Integer() {41, 0, 0, 131072})
+        Me.cmb_CheckInPurchasingOrder.Location = New System.Drawing.Point(2, 52)
+        Me.cmb_CheckInPurchasingOrder.Name = "cmb_CheckInPurchasingOrder"
+        Me.cmb_CheckInPurchasingOrder.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.cmb_CheckInPurchasingOrder.Size = New System.Drawing.Size(342, 22)
+        Me.cmb_CheckInPurchasingOrder.TabIndex = 2
+        Me.cmb_CheckInPurchasingOrder.TextBoxAutoComplete = False
+        Me.cmb_CheckInPurchasingOrder.TextboxBackColor = System.Drawing.Color.Empty
+        Me.cmb_CheckInPurchasingOrder.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cmb_CheckInPurchasingOrder.TextEnabled = True
+        Me.cmb_CheckInPurchasingOrder.TextForeColor = System.Drawing.Color.Empty
+        Me.cmb_CheckInPurchasingOrder.TextMaxLength = 32767
+        Me.cmb_CheckInPurchasingOrder.UseSendTab = True
+        Me.cmb_CheckInPurchasingOrder.Visible = False
+        '
+        'cmb_CheckOutPurchasingOrder
+        '
+        Me.cmb_CheckOutPurchasingOrder.BackYesno = False
+        Me.cmb_CheckOutPurchasingOrder.ButtonBackColor = System.Drawing.Color.Empty
+        Me.cmb_CheckOutPurchasingOrder.ButtonBorderStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cmb_CheckOutPurchasingOrder.ButtonEnabled = True
+        Me.cmb_CheckOutPurchasingOrder.ButtonFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmb_CheckOutPurchasingOrder.ButtonForeColor = System.Drawing.Color.Empty
+        Me.cmb_CheckOutPurchasingOrder.ButtonTitle = "Outbound Kind"
+        Me.cmb_CheckOutPurchasingOrder.Code = "1"
+        Me.cmb_CheckOutPurchasingOrder.CValue = "Side Outbound; Return Purchasing"
+        Me.cmb_CheckOutPurchasingOrder.Data = "1"
+        Me.cmb_CheckOutPurchasingOrder.DataDecimal = 0
+        Me.cmb_CheckOutPurchasingOrder.DataLen = 0
+        Me.cmb_CheckOutPurchasingOrder.DataValue = 0
+        Me.cmb_CheckOutPurchasingOrder.InSelected = 0
+        Me.cmb_CheckOutPurchasingOrder.Layoutpercent = New Decimal(New Integer() {41, 0, 0, 131072})
+        Me.cmb_CheckOutPurchasingOrder.Location = New System.Drawing.Point(2, 52)
+        Me.cmb_CheckOutPurchasingOrder.Name = "cmb_CheckOutPurchasingOrder"
+        Me.cmb_CheckOutPurchasingOrder.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.cmb_CheckOutPurchasingOrder.Size = New System.Drawing.Size(342, 21)
+        Me.cmb_CheckOutPurchasingOrder.TabIndex = 262
+        Me.cmb_CheckOutPurchasingOrder.TextBoxAutoComplete = False
+        Me.cmb_CheckOutPurchasingOrder.TextboxBackColor = System.Drawing.Color.Empty
+        Me.cmb_CheckOutPurchasingOrder.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.cmb_CheckOutPurchasingOrder.TextEnabled = True
+        Me.cmb_CheckOutPurchasingOrder.TextForeColor = System.Drawing.Color.Empty
+        Me.cmb_CheckOutPurchasingOrder.TextMaxLength = 32767
+        Me.cmb_CheckOutPurchasingOrder.UseSendTab = True
+        Me.cmb_CheckOutPurchasingOrder.Visible = False
+        '
+        'PeaceLabel3
+        '
+        Me.PeaceLabel3.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.PeaceLabel3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.PeaceLabel3.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.PeaceLabel3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.PeaceLabel3.ButtonTitle = Nothing
+        Me.PeaceLabel3.Code = ""
+        Me.PeaceLabel3.Data = ""
+        Me.PeaceLabel3.DTDec = 0
+        Me.PeaceLabel3.DTLen = 0
+        Me.PeaceLabel3.DTValue = 0
+        Me.PeaceLabel3.Location = New System.Drawing.Point(5, 90)
+        Me.PeaceLabel3.Margin = New System.Windows.Forms.Padding(1)
+        Me.PeaceLabel3.Name = "PeaceLabel3"
+        Me.PeaceLabel3.NoClear = False
+        Me.PeaceLabel3.Size = New System.Drawing.Size(89, 24)
+        Me.PeaceLabel3.TabIndex = 1
+        Me.PeaceLabel3.Tag = ""
+        Me.PeaceLabel3.Text = "WareHouse Type"
+        Me.PeaceLabel3.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel3.Visible = False
+        '
+        'txt_cdDeliveryTerm
+        '
+        Me.txt_cdDeliveryTerm.BackYesno = False
+        Me.txt_cdDeliveryTerm.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdDeliveryTerm.ButtonEnabled = True
+        Me.txt_cdDeliveryTerm.ButtonFont = Nothing
+        Me.txt_cdDeliveryTerm.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdDeliveryTerm.ButtonName = "Const_DeliveryTerm"
+        Me.txt_cdDeliveryTerm.ButtonTitle = "Delivery Term"
+        Me.txt_cdDeliveryTerm.Code = ""
+        Me.txt_cdDeliveryTerm.Data = ""
+        Me.txt_cdDeliveryTerm.DataDecimal = 0
+        Me.txt_cdDeliveryTerm.DataLen = 0
+        Me.txt_cdDeliveryTerm.DataValue = 1
+        Me.txt_cdDeliveryTerm.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdDeliveryTerm.Location = New System.Drawing.Point(323, 57)
+        Me.txt_cdDeliveryTerm.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdDeliveryTerm.Name = "txt_cdDeliveryTerm"
+        Me.txt_cdDeliveryTerm.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdDeliveryTerm.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdDeliveryTerm.TabIndex = 7
+        Me.txt_cdDeliveryTerm.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdDeliveryTerm.TextBoxAutoComplete = False
+        Me.txt_cdDeliveryTerm.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdDeliveryTerm.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdDeliveryTerm.TextEnabled = True
+        Me.txt_cdDeliveryTerm.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdDeliveryTerm.TextMaxLength = 32767
+        Me.txt_cdDeliveryTerm.TextMultiLine = False
+        Me.txt_cdDeliveryTerm.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdDeliveryTerm.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdDeliveryTerm.UseSendTab = True
+        Me.txt_cdDeliveryTerm.Visible = False
+        '
+        'PeaceLabel4
+        '
+        Me.PeaceLabel4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.PeaceLabel4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.PeaceLabel4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.PeaceLabel4.ButtonTitle = Nothing
+        Me.PeaceLabel4.Code = ""
+        Me.PeaceLabel4.Data = ""
+        Me.PeaceLabel4.DTDec = 0
+        Me.PeaceLabel4.DTLen = 0
+        Me.PeaceLabel4.DTValue = 0
+        Me.PeaceLabel4.Location = New System.Drawing.Point(1233, 138)
+        Me.PeaceLabel4.Name = "PeaceLabel4"
+        Me.PeaceLabel4.NoClear = False
+        Me.PeaceLabel4.Size = New System.Drawing.Size(16, 15)
+        Me.PeaceLabel4.TabIndex = 263
+        Me.PeaceLabel4.Tag = ""
+        Me.PeaceLabel4.Text = "%"
+        Me.PeaceLabel4.TextAlign = DevExpress.Utils.HorzAlignment.Center
+        '
+        'txt_Tolerance
+        '
+        Me.txt_Tolerance.BackYesno = False
+        Me.txt_Tolerance.ButtonTitle = Nothing
+        Me.txt_Tolerance.Code = ""
+        Me.txt_Tolerance.Data = ""
+        Me.txt_Tolerance.DataDecimal = 0
+        Me.txt_Tolerance.DataLen = 0
+        Me.txt_Tolerance.DataValue = 0
+        Me.txt_Tolerance.FormatDecimal = 2
+        Me.txt_Tolerance.FormatValue = True
+        Me.txt_Tolerance.LableBackColor = System.Drawing.SystemColors.Control
+        Me.txt_Tolerance.LableEnabled = True
+        Me.txt_Tolerance.LableFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_Tolerance.LableForeColor = System.Drawing.Color.Empty
+        Me.txt_Tolerance.LableTitle = "Tolerance"
+        Me.txt_Tolerance.Layoutpercent = New Decimal(New Integer() {48, 0, 0, 131072})
+        Me.txt_Tolerance.Location = New System.Drawing.Point(999, 135)
+        Me.txt_Tolerance.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_Tolerance.Name = "txt_Tolerance"
+        Me.txt_Tolerance.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_Tolerance.Size = New System.Drawing.Size(230, 24)
+        Me.txt_Tolerance.TabIndex = 15
+        Me.txt_Tolerance.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txt_Tolerance.TextBoxAutoComplete = False
+        Me.txt_Tolerance.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_Tolerance.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_Tolerance.TextEnabled = True
+        Me.txt_Tolerance.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_Tolerance.TextMaxLength = 32767
+        Me.txt_Tolerance.TextMultiLine = False
+        Me.txt_Tolerance.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_Tolerance.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_Tolerance.UseSendTab = True
+        '
+        'txt_ContractNo
+        '
+        Me.txt_ContractNo.BackYesno = False
+        Me.txt_ContractNo.ButtonTitle = Nothing
+        Me.txt_ContractNo.Code = ""
+        Me.txt_ContractNo.Data = ""
+        Me.txt_ContractNo.DataDecimal = 0
+        Me.txt_ContractNo.DataLen = 0
+        Me.txt_ContractNo.DataValue = 1
+        Me.txt_ContractNo.FormatDecimal = 0
+        Me.txt_ContractNo.FormatValue = False
+        Me.txt_ContractNo.LableBackColor = System.Drawing.SystemColors.Control
+        Me.txt_ContractNo.LableEnabled = True
+        Me.txt_ContractNo.LableFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_ContractNo.LableForeColor = System.Drawing.Color.Empty
+        Me.txt_ContractNo.LableTitle = "Contract No"
+        Me.txt_ContractNo.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_ContractNo.Location = New System.Drawing.Point(5, 161)
+        Me.txt_ContractNo.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_ContractNo.Name = "txt_ContractNo"
+        Me.txt_ContractNo.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_ContractNo.Size = New System.Drawing.Size(315, 24)
+        Me.txt_ContractNo.TabIndex = 5
+        Me.txt_ContractNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_ContractNo.TextBoxAutoComplete = False
+        Me.txt_ContractNo.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_ContractNo.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_ContractNo.TextEnabled = True
+        Me.txt_ContractNo.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_ContractNo.TextMaxLength = 32767
+        Me.txt_ContractNo.TextMultiLine = False
+        Me.txt_ContractNo.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_ContractNo.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_ContractNo.UseSendTab = True
+        '
+        'txt_cdOrigin
+        '
+        Me.txt_cdOrigin.BackYesno = False
+        Me.txt_cdOrigin.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdOrigin.ButtonEnabled = True
+        Me.txt_cdOrigin.ButtonFont = Nothing
+        Me.txt_cdOrigin.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdOrigin.ButtonName = "Const_Origin"
+        Me.txt_cdOrigin.ButtonTitle = "Origin"
+        Me.txt_cdOrigin.Code = ""
+        Me.txt_cdOrigin.Data = ""
+        Me.txt_cdOrigin.DataDecimal = 0
+        Me.txt_cdOrigin.DataLen = 0
+        Me.txt_cdOrigin.DataValue = 0
+        Me.txt_cdOrigin.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdOrigin.Location = New System.Drawing.Point(5, 57)
+        Me.txt_cdOrigin.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdOrigin.Name = "txt_cdOrigin"
+        Me.txt_cdOrigin.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdOrigin.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdOrigin.TabIndex = 3
+        Me.txt_cdOrigin.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdOrigin.TextBoxAutoComplete = False
+        Me.txt_cdOrigin.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdOrigin.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdOrigin.TextEnabled = True
+        Me.txt_cdOrigin.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdOrigin.TextMaxLength = 32767
+        Me.txt_cdOrigin.TextMultiLine = False
+        Me.txt_cdOrigin.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdOrigin.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdOrigin.UseSendTab = True
+        Me.txt_cdOrigin.Visible = False
+        '
+        'txt_cdBuyingType
+        '
+        Me.txt_cdBuyingType.BackYesno = False
+        Me.txt_cdBuyingType.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdBuyingType.ButtonEnabled = True
+        Me.txt_cdBuyingType.ButtonFont = Nothing
+        Me.txt_cdBuyingType.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdBuyingType.ButtonName = "Const_BuyingType"
+        Me.txt_cdBuyingType.ButtonTitle = "Buying Type"
+        Me.txt_cdBuyingType.Code = ""
+        Me.txt_cdBuyingType.Data = ""
+        Me.txt_cdBuyingType.DataDecimal = 0
+        Me.txt_cdBuyingType.DataLen = 0
+        Me.txt_cdBuyingType.DataValue = 1
+        Me.txt_cdBuyingType.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdBuyingType.Location = New System.Drawing.Point(323, 31)
+        Me.txt_cdBuyingType.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdBuyingType.Name = "txt_cdBuyingType"
+        Me.txt_cdBuyingType.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdBuyingType.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdBuyingType.TabIndex = 6
+        Me.txt_cdBuyingType.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdBuyingType.TextBoxAutoComplete = False
+        Me.txt_cdBuyingType.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdBuyingType.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdBuyingType.TextEnabled = True
+        Me.txt_cdBuyingType.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdBuyingType.TextMaxLength = 32767
+        Me.txt_cdBuyingType.TextMultiLine = False
+        Me.txt_cdBuyingType.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdBuyingType.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdBuyingType.UseSendTab = True
+        Me.txt_cdBuyingType.Visible = False
+        '
+        'txt_Remark
+        '
+        Me.txt_Remark.BackYesno = False
+        Me.txt_Remark.ButtonTitle = Nothing
+        Me.txt_Remark.Code = ""
+        Me.txt_Remark.Data = ""
+        Me.txt_Remark.DataDecimal = 0
+        Me.txt_Remark.DataLen = 0
+        Me.txt_Remark.DataValue = 0
+        Me.txt_Remark.FormatDecimal = 0
+        Me.txt_Remark.FormatValue = False
+        Me.txt_Remark.LableBackColor = System.Drawing.SystemColors.Control
+        Me.txt_Remark.LableEnabled = True
+        Me.txt_Remark.LableFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_Remark.LableForeColor = System.Drawing.Color.Empty
+        Me.txt_Remark.LableTitle = "Remark"
+        Me.txt_Remark.Layoutpercent = New Decimal(New Integer() {9, 0, 0, 131072})
+        Me.txt_Remark.Location = New System.Drawing.Point(5, 187)
+        Me.txt_Remark.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_Remark.Name = "txt_Remark"
+        Me.txt_Remark.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_Remark.Size = New System.Drawing.Size(1246, 47)
+        Me.txt_Remark.TabIndex = 16
+        Me.txt_Remark.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_Remark.TextBoxAutoComplete = False
+        Me.txt_Remark.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_Remark.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_Remark.TextEnabled = True
+        Me.txt_Remark.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_Remark.TextMaxLength = 32767
+        Me.txt_Remark.TextMultiLine = False
+        Me.txt_Remark.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_Remark.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_Remark.UseSendTab = True
+        '
+        'txt_ContractID
+        '
+        Me.txt_ContractID.BackYesno = False
+        Me.txt_ContractID.ButtonTitle = Nothing
+        Me.txt_ContractID.Code = ""
+        Me.txt_ContractID.Data = ""
+        Me.txt_ContractID.DataDecimal = 0
+        Me.txt_ContractID.DataLen = 0
+        Me.txt_ContractID.DataValue = 0
+        Me.txt_ContractID.FormatDecimal = 0
+        Me.txt_ContractID.FormatValue = False
+        Me.txt_ContractID.LableBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_ContractID.LableEnabled = True
+        Me.txt_ContractID.LableFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.txt_ContractID.LableForeColor = System.Drawing.Color.Black
+        Me.txt_ContractID.LableTitle = "Contract ID"
+        Me.txt_ContractID.Layoutpercent = New Decimal(New Integer() {415, 0, 0, 196608})
+        Me.txt_ContractID.Location = New System.Drawing.Point(323, 5)
+        Me.txt_ContractID.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_ContractID.Name = "txt_ContractID"
+        Me.txt_ContractID.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_ContractID.Size = New System.Drawing.Size(265, 24)
+        Me.txt_ContractID.TabIndex = 1
+        Me.txt_ContractID.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_ContractID.TextBoxAutoComplete = False
+        Me.txt_ContractID.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_ContractID.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_ContractID.TextEnabled = True
+        Me.txt_ContractID.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_ContractID.TextMaxLength = 32767
+        Me.txt_ContractID.TextMultiLine = False
+        Me.txt_ContractID.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_ContractID.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_ContractID.UseSendTab = True
+        '
+        'txt_CustomerCode
+        '
+        Me.txt_CustomerCode.BackYesno = False
+        Me.txt_CustomerCode.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_CustomerCode.ButtonEnabled = True
+        Me.txt_CustomerCode.ButtonFont = Nothing
+        Me.txt_CustomerCode.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_CustomerCode.ButtonName = "btn_Customer"
+        Me.txt_CustomerCode.ButtonTitle = "Master Supplier"
+        Me.txt_CustomerCode.Code = ""
+        Me.txt_CustomerCode.Data = ""
+        Me.txt_CustomerCode.DataDecimal = 0
+        Me.txt_CustomerCode.DataLen = 0
+        Me.txt_CustomerCode.DataValue = 1
+        Me.txt_CustomerCode.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_CustomerCode.Location = New System.Drawing.Point(5, 31)
+        Me.txt_CustomerCode.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_CustomerCode.Name = "txt_CustomerCode"
+        Me.txt_CustomerCode.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_CustomerCode.Size = New System.Drawing.Size(315, 24)
+        Me.txt_CustomerCode.TabIndex = 2
+        Me.txt_CustomerCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_CustomerCode.TextBoxAutoComplete = False
+        Me.txt_CustomerCode.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_CustomerCode.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_CustomerCode.TextEnabled = True
+        Me.txt_CustomerCode.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_CustomerCode.TextMaxLength = 32767
+        Me.txt_CustomerCode.TextMultiLine = False
+        Me.txt_CustomerCode.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_CustomerCode.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_CustomerCode.UseSendTab = True
+        '
+        'txt_cdPaymentCondition
+        '
+        Me.txt_cdPaymentCondition.BackYesno = False
+        Me.txt_cdPaymentCondition.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_cdPaymentCondition.ButtonEnabled = True
+        Me.txt_cdPaymentCondition.ButtonFont = Nothing
+        Me.txt_cdPaymentCondition.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentCondition.ButtonName = "Const_PaymentCondition"
+        Me.txt_cdPaymentCondition.ButtonTitle = "Pay Condition"
+        Me.txt_cdPaymentCondition.Code = ""
+        Me.txt_cdPaymentCondition.Data = ""
+        Me.txt_cdPaymentCondition.DataDecimal = 0
+        Me.txt_cdPaymentCondition.DataLen = 0
+        Me.txt_cdPaymentCondition.DataValue = 1
+        Me.txt_cdPaymentCondition.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_cdPaymentCondition.Location = New System.Drawing.Point(323, 109)
+        Me.txt_cdPaymentCondition.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_cdPaymentCondition.Name = "txt_cdPaymentCondition"
+        Me.txt_cdPaymentCondition.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_cdPaymentCondition.Size = New System.Drawing.Size(315, 24)
+        Me.txt_cdPaymentCondition.TabIndex = 9
+        Me.txt_cdPaymentCondition.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_cdPaymentCondition.TextBoxAutoComplete = False
+        Me.txt_cdPaymentCondition.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentCondition.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_cdPaymentCondition.TextEnabled = True
+        Me.txt_cdPaymentCondition.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_cdPaymentCondition.TextMaxLength = 32767
+        Me.txt_cdPaymentCondition.TextMultiLine = False
+        Me.txt_cdPaymentCondition.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_cdPaymentCondition.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_cdPaymentCondition.UseSendTab = True
+        Me.txt_cdPaymentCondition.Visible = False
+        '
+        'txt_InchargePurchasing
+        '
+        Me.txt_InchargePurchasing.BackYesno = False
+        Me.txt_InchargePurchasing.ButtonBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.txt_InchargePurchasing.ButtonEnabled = True
+        Me.txt_InchargePurchasing.ButtonFont = Nothing
+        Me.txt_InchargePurchasing.ButtonForeColor = System.Drawing.Color.Empty
+        Me.txt_InchargePurchasing.ButtonName = "Const_EMP80"
+        Me.txt_InchargePurchasing.ButtonTitle = "In-Charge"
+        Me.txt_InchargePurchasing.Code = ""
+        Me.txt_InchargePurchasing.Data = ""
+        Me.txt_InchargePurchasing.DataDecimal = 0
+        Me.txt_InchargePurchasing.DataLen = 0
+        Me.txt_InchargePurchasing.DataValue = 1
+        Me.txt_InchargePurchasing.Layoutpercent = New Decimal(New Integer() {3366, 0, 0, 262144})
+        Me.txt_InchargePurchasing.Location = New System.Drawing.Point(5, 135)
+        Me.txt_InchargePurchasing.Margin = New System.Windows.Forms.Padding(1)
+        Me.txt_InchargePurchasing.Name = "txt_InchargePurchasing"
+        Me.txt_InchargePurchasing.PanelStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.[Single]
+        Me.txt_InchargePurchasing.Size = New System.Drawing.Size(315, 24)
+        Me.txt_InchargePurchasing.TabIndex = 4
+        Me.txt_InchargePurchasing.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.txt_InchargePurchasing.TextBoxAutoComplete = False
+        Me.txt_InchargePurchasing.TextboxBackColor = System.Drawing.Color.Empty
+        Me.txt_InchargePurchasing.TextBoxFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.txt_InchargePurchasing.TextEnabled = True
+        Me.txt_InchargePurchasing.TextForeColor = System.Drawing.Color.Empty
+        Me.txt_InchargePurchasing.TextMaxLength = 32767
+        Me.txt_InchargePurchasing.TextMultiLine = False
+        Me.txt_InchargePurchasing.TextScrollBars = System.Windows.Forms.ScrollBars.None
+        Me.txt_InchargePurchasing.TextStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.txt_InchargePurchasing.UseSendTab = True
+        '
+        'Vs1
+        '
+        Me.Vs1.AccessibleDescription = "Vs1, Sheet1, Row 0, Column 0, "
+        Me.Vs1.AllowDragFill = True
+        Me.Vs1.AllowEditorReservedLocations = False
+        Me.Vs1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Vs1.ClipboardOptions = FarPoint.Win.Spread.ClipboardOptions.NoHeaders
+        Me.Vs1.CopyPasteChk = True
+        Me.Vs1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Vs1.FocusRenderer = New FarPoint.Win.Spread.EnhancedFocusIndicatorRenderer(1)
+        Me.Vs1.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Vs1.HorizontalScrollBar.Buttons = New FarPoint.Win.Spread.FpScrollBarButtonCollection("BackwardLineButton,ThumbTrack,ForwardLineButton")
+        Me.Vs1.HorizontalScrollBar.Name = ""
+        EnhancedScrollBarRenderer1.ButtonBackgroundColor = System.Drawing.Color.White
+        EnhancedScrollBarRenderer1.ButtonBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.ButtonHoveredBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.ButtonHoveredBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.ButtonSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.ButtonSelectedBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.TrackBarBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer1.TrackBarSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        Me.Vs1.HorizontalScrollBar.Renderer = EnhancedScrollBarRenderer1
+        Me.Vs1.InsChk = True
+        Me.Vs1.Location = New System.Drawing.Point(0, 244)
+        Me.Vs1.Margin = New System.Windows.Forms.Padding(0)
+        Me.Vs1.Name = "Vs1"
+        NamedStyle1.BackColor = System.Drawing.SystemColors.Window
+        NamedStyle1.CellType = GeneralCellType1
+        NamedStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        NamedStyle1.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        NamedStyle1.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle1.Renderer = GeneralCellType1
+        NamedStyle1.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        NamedStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        NamedStyle2.Border = BevelBorder1
+        NamedStyle2.CanFocus = False
+        NamedStyle2.CellType = TextCellType1
+        NamedStyle2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        NamedStyle2.ForeColor = System.Drawing.Color.White
+        NamedStyle2.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center
+        NamedStyle2.Locked = False
+        NamedStyle2.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle2.Renderer = TextCellType1
+        NamedStyle2.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center
+        NamedStyle2.VisualStyles = FarPoint.Win.VisualStyles.Off
+        NamedStyle3.Border = BevelBorder2
+        NamedStyle3.CellType = TextCellType2
+        NamedStyle3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        NamedStyle3.ForeColor = System.Drawing.SystemColors.ControlText
+        NamedStyle3.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center
+        NamedStyle3.Locked = False
+        NamedStyle3.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle3.Renderer = TextCellType2
+        NamedStyle3.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center
+        NamedStyle4.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        NamedStyle4.Border = BevelBorder3
+        NamedStyle4.CanFocus = False
+        NamedStyle4.CellType = TextCellType3
+        NamedStyle4.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        NamedStyle4.ForeColor = System.Drawing.Color.White
+        NamedStyle4.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center
+        NamedStyle4.Locked = False
+        NamedStyle4.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle4.Renderer = TextCellType3
+        NamedStyle4.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center
+        NamedStyle4.VisualStyles = FarPoint.Win.VisualStyles.Off
+        NamedStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        NamedStyle5.Border = BevelBorder4
+        NamedStyle5.CellType = TextCellType4
+        NamedStyle5.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        NamedStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        NamedStyle5.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.Center
+        NamedStyle5.Locked = False
+        NamedStyle5.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle5.Renderer = TextCellType4
+        NamedStyle5.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center
+        NamedStyle6.BackColor = System.Drawing.SystemColors.Window
+        NamedStyle6.CellType = GeneralCellType2
+        NamedStyle6.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        NamedStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        NamedStyle6.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        NamedStyle6.Locked = False
+        NamedStyle6.NoteIndicatorColor = System.Drawing.Color.Red
+        NamedStyle6.Renderer = GeneralCellType2
+        NamedStyle6.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1.NamedStyles.AddRange(New FarPoint.Win.Spread.NamedStyle() {NamedStyle1, NamedStyle2, NamedStyle3, NamedStyle4, NamedStyle5, NamedStyle6})
+        Me.Vs1.ReportName = Nothing
+        Me.Vs1.Sheets.AddRange(New FarPoint.Win.Spread.SheetView() {Me.Vs1_Sheet1})
+        Me.Vs1.Size = New System.Drawing.Size(1260, 395)
+        SpreadSkin1.ColumnFooterDefaultStyle = NamedStyle3
+        SpreadSkin1.ColumnHeaderDefaultStyle = NamedStyle2
+        SpreadSkin1.CornerDefaultStyle = NamedStyle5
+        SpreadSkin1.DefaultStyle = NamedStyle6
+        SpreadSkin1.FocusRenderer = EnhancedFocusIndicatorRenderer1
+        EnhancedInterfaceRenderer1.ScrollBoxBackgroundColor = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(186, Byte), Integer), CType(CType(221, Byte), Integer))
+        EnhancedInterfaceRenderer1.SheetTabLowerActiveColor = System.Drawing.Color.FromArgb(CType(CType(183, Byte), Integer), CType(CType(210, Byte), Integer), CType(CType(244, Byte), Integer))
+        EnhancedInterfaceRenderer1.SheetTabLowerNormalColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(231, Byte), Integer), CType(CType(249, Byte), Integer))
+        EnhancedInterfaceRenderer1.SheetTabUpperActiveColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(228, Byte), Integer), CType(CType(244, Byte), Integer))
+        EnhancedInterfaceRenderer1.SheetTabUpperNormalColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(249, Byte), Integer))
+        EnhancedInterfaceRenderer1.TabStripBackgroundColor = System.Drawing.Color.FromArgb(CType(CType(161, Byte), Integer), CType(CType(186, Byte), Integer), CType(CType(221, Byte), Integer))
+        SpreadSkin1.InterfaceRenderer = EnhancedInterfaceRenderer1
+        SpreadSkin1.Name = "Hung123"
+        SpreadSkin1.RowHeaderDefaultStyle = NamedStyle4
+        EnhancedScrollBarRenderer2.ButtonBackgroundColor = System.Drawing.Color.White
+        EnhancedScrollBarRenderer2.ButtonBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.ButtonHoveredBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.ButtonHoveredBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.ButtonSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.ButtonSelectedBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.TrackBarBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer2.TrackBarSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        SpreadSkin1.ScrollBarRenderer = EnhancedScrollBarRenderer2
+        SpreadSkin1.SelectionRenderer = New FarPoint.Win.Spread.DefaultSelectionRenderer()
+        Me.Vs1.Skin = SpreadSkin1
+        Me.Vs1.SpreadWjob = 0
+        Me.Vs1.TabIndex = 0
+        Me.Vs1.TabStop = False
+        Me.Vs1.TabStrip.DefaultSheetTab.BackColor = System.Drawing.Color.White
+        Me.Vs1.TabStrip.DefaultSheetTab.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Vs1.VerticalScrollBar.Buttons = New FarPoint.Win.Spread.FpScrollBarButtonCollection("BackwardLineButton,ThumbTrack,ForwardLineButton")
+        Me.Vs1.VerticalScrollBar.Name = ""
+        EnhancedScrollBarRenderer3.ButtonBackgroundColor = System.Drawing.Color.White
+        EnhancedScrollBarRenderer3.ButtonBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.ButtonHoveredBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.ButtonHoveredBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.ButtonSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.ButtonSelectedBorderColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.TrackBarBackgroundColor = System.Drawing.Color.Gainsboro
+        EnhancedScrollBarRenderer3.TrackBarSelectedBackgroundColor = System.Drawing.Color.Gainsboro
+        Me.Vs1.VerticalScrollBar.Renderer = EnhancedScrollBarRenderer3
+        Vs1_InputMapWhenFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.[Return], System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextColumnWrap)
+        Vs1_InputMapWhenFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.Right, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextColumn)
+        Vs1_InputMapWhenFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.Left, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToPreviousColumn)
+        Vs1_InputMapWhenFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.Up, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToPreviousRow)
+        Vs1_InputMapWhenFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.Down, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextRow)
+        Me.Vs1.SetInputMap(FarPoint.Win.Spread.InputMapMode.WhenFocused, FarPoint.Win.Spread.OperationMode.Normal, Vs1_InputMapWhenFocusedNormal)
+        Vs1_InputMapWhenFocusedSingleSelect.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.[Return], System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextColumnWrap)
+        Vs1_InputMapWhenFocusedSingleSelect.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.StartEditing)
+        Me.Vs1.SetInputMap(FarPoint.Win.Spread.InputMapMode.WhenFocused, FarPoint.Win.Spread.OperationMode.SingleSelect, Vs1_InputMapWhenFocusedSingleSelect)
+        Vs1_InputMapWhenAncestorOfFocusedNormal.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.[Return], System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextColumnWrap)
+        Me.Vs1.SetInputMap(FarPoint.Win.Spread.InputMapMode.WhenAncestorOfFocused, FarPoint.Win.Spread.OperationMode.Normal, Vs1_InputMapWhenAncestorOfFocusedNormal)
+        Vs1_InputMapWhenAncestorOfFocusedSingleSelect.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.[Return], System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.MoveToNextColumnWrap)
+        Vs1_InputMapWhenAncestorOfFocusedSingleSelect.Put(New FarPoint.Win.Spread.Keystroke(System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.None), FarPoint.Win.Spread.SpreadActions.StartEditing)
+        Me.Vs1.SetInputMap(FarPoint.Win.Spread.InputMapMode.WhenAncestorOfFocused, FarPoint.Win.Spread.OperationMode.SingleSelect, Vs1_InputMapWhenAncestorOfFocusedSingleSelect)
+        '
+        'Vs1_Sheet1
+        '
+        Me.Vs1_Sheet1.Reset()
+        Me.Vs1_Sheet1.SheetName = "Sheet1"
+        'Formulas and custom names must be loaded with R1C1 reference style
+        Me.Vs1_Sheet1.ReferenceStyle = FarPoint.Win.Spread.Model.ReferenceStyle.R1C1
+        Me.Vs1_Sheet1.ColumnCount = 29
+        Me.Vs1_Sheet1.RowCount = 10
+        Me.Vs1_Sheet1.ActiveSkin = New FarPoint.Win.Spread.SheetSkin("SheetSkin1", System.Drawing.Color.White, System.Drawing.Color.Empty, System.Drawing.Color.Black, System.Drawing.Color.FromArgb(CType(CType(172, Byte), Integer), CType(CType(172, Byte), Integer), CType(CType(172, Byte), Integer)), FarPoint.Win.Spread.GridLines.Both, System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer)), System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer)), System.Drawing.Color.White, System.Drawing.Color.White, System.Drawing.Color.Empty, System.Drawing.Color.Empty, System.Drawing.Color.White, System.Drawing.SystemColors.ButtonFace, False, False, False, True, True, True, False, True, "RowHeaderDefault", "RowHeaderDefault", "RowHeaderDefault", "DataAreaDefault", "RowHeaderDefault")
+        Me.Vs1_Sheet1.ColumnFooter.Columns.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.ForeColor = System.Drawing.Color.White
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.Parent = "RowHeaderDefault"
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.ColumnFooter.DefaultStyle.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnFooter.Rows.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.ForeColor = System.Drawing.Color.White
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.Parent = "RowHeaderDefault"
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.ColumnFooterSheetCornerStyle.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnHeader.Cells.Get(0, 0).Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Vs1_Sheet1.ColumnHeader.Columns.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        TextCellType5.WordWrap = True
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.CellType = TextCellType5
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.ForeColor = System.Drawing.Color.White
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.Parent = "RowHeaderDefault"
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.Renderer = TextCellType5
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.ColumnHeader.DefaultStyle.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnHeader.Rows.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ColumnHeader.Rows.Get(0).Height = 25.0!
+        Me.Vs1_Sheet1.DefaultStyle.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Vs1_Sheet1.DefaultStyle.ForeColor = System.Drawing.Color.Black
+        Me.Vs1_Sheet1.DefaultStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.DefaultStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.DefaultStyle.Parent = "DataAreaDefault"
+        Me.Vs1_Sheet1.DefaultStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.Center
+        Me.Vs1_Sheet1.FilterBar.DefaultStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.FilterBar.DefaultStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.FilterBar.DefaultStyle.Parent = "FilterBarDefaultEnhanced"
+        Me.Vs1_Sheet1.FilterBar.DefaultStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.FilterBar.DefaultStyle.VisualStyles = FarPoint.Win.VisualStyles.[Auto]
+        Me.Vs1_Sheet1.FilterBarHeaderStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.FilterBarHeaderStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.FilterBarHeaderStyle.Parent = "RowHeaderDefaultEnhanced"
+        Me.Vs1_Sheet1.FilterBarHeaderStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.FilterBarHeaderStyle.VisualStyles = FarPoint.Win.VisualStyles.[Auto]
+        Me.Vs1_Sheet1.GroupBarInfo.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Vs1_Sheet1.NullFont = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Vs1_Sheet1.OperationMode = FarPoint.Win.Spread.OperationMode.SingleSelect
+        Me.Vs1_Sheet1.RowHeader.Columns.Default.Resizable = False
+        Me.Vs1_Sheet1.RowHeader.Columns.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.CellType = TextCellType5
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.Font = New System.Drawing.Font("Tahoma", 9.0!)
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.ForeColor = System.Drawing.Color.White
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.Parent = "RowHeaderDefault"
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.Renderer = TextCellType5
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.RowHeader.DefaultStyle.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.RowHeader.Rows.Default.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.Rows.Default.Height = 22.0!
+        Me.Vs1_Sheet1.SelectionBackColor = System.Drawing.Color.Aquamarine
+        Me.Vs1_Sheet1.SelectionPolicy = FarPoint.Win.Spread.Model.SelectionPolicy.[Single]
+        Me.Vs1_Sheet1.SelectionStyle = FarPoint.Win.Spread.SelectionStyles.SelectionColors
+        Me.Vs1_Sheet1.SelectionUnit = FarPoint.Win.Spread.Model.SelectionUnit.Row
+        Me.Vs1_Sheet1.SheetCornerStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer))
+        Me.Vs1_Sheet1.SheetCornerStyle.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Vs1_Sheet1.SheetCornerStyle.ForeColor = System.Drawing.Color.White
+        Me.Vs1_Sheet1.SheetCornerStyle.HorizontalAlignment = FarPoint.Win.Spread.CellHorizontalAlignment.General
+        Me.Vs1_Sheet1.SheetCornerStyle.NoteIndicatorColor = System.Drawing.Color.Red
+        Me.Vs1_Sheet1.SheetCornerStyle.Parent = "RowHeaderDefault"
+        Me.Vs1_Sheet1.SheetCornerStyle.VerticalAlignment = FarPoint.Win.Spread.CellVerticalAlignment.General
+        Me.Vs1_Sheet1.SheetCornerStyle.VisualStyles = FarPoint.Win.VisualStyles.Off
+        Me.Vs1_Sheet1.ReferenceStyle = FarPoint.Win.Spread.Model.ReferenceStyle.A1
+        '
+        'ISUD7360A
+        '
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.ClientSize = New System.Drawing.Size(1264, 681)
+        Me.Controls.Add(Me.Frame1)
+        Me.Name = "ISUD7360A"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "OUTSOURCE PRICE PROCESSING -(ISUD7360A)"
+        Me.Controls.SetChildIndex(Me.Frame1, 0)
+        CType(Me.Frame1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Frame1.ResumeLayout(False)
+        Me.Tlp_1.ResumeLayout(False)
+        CType(Me.FlowLayoutPanel1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
+        CType(Me.PeacePanel4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PeacePanel4.ResumeLayout(False)
+        Me.PeacePanel4.PerformLayout()
+        Me.pan_ioType.ResumeLayout(False)
+        Me.pan_ioType.PerformLayout()
+        CType(Me.pcl_CheckField, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pcl_CheckField.ResumeLayout(False)
+        Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel2.PerformLayout()
+        Me.pan_MarketType.ResumeLayout(False)
+        Me.pan_MarketType.PerformLayout()
+        Me.pan_Process.ResumeLayout(False)
+        Me.pan_Process.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
+        Me.pan_FabricType.ResumeLayout(False)
+        Me.pan_FabricType.PerformLayout()
+        CType(Me.Vs1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Vs1_Sheet1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Frame1 As PSMGlobal.PeacePanel
+    Friend WithEvents Vs1_Sheet1 As FarPoint.Win.Spread.SheetView
+    Friend WithEvents txt_ContractID As PSMGlobal.SelectLabelText
+    Friend WithEvents FlowLayoutPanel1 As PSMGlobal.PeacePanel
+    Friend WithEvents txt_CustomerCode As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_DateAccept As PSMGlobal.SelectPeaceCalSin
+    Friend WithEvents txt_cdPaymentCondition As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_InchargePurchasing As PSMGlobal.SelectPeaceHLPButton
+    Public WithEvents Vs1 As PSMGlobal.PeaceFarpoint
+    Public WithEvents PeaceLabel24 As PSMGlobal.PeaceLabel
+    Friend WithEvents txt_ContractNo As PSMGlobal.SelectLabelText
+    Friend WithEvents txt_cdOrigin As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_cdBuyingType As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents PeaceLabel3 As PSMGlobal.PeaceLabel
+    Friend WithEvents pan_ioType As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckIOType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckIOType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents PeaceLabel2 As PSMGlobal.PeaceLabel
+    Friend WithEvents pan_FabricType As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckMaterialType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckMaterialType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents tit_Use As PSMGlobal.PeaceLabel
+    Friend WithEvents pan_Process As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckProcessType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckProcessType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents PeaceLabel1 As PSMGlobal.PeaceLabel
+    Friend WithEvents pan_MarketType As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckMarketType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckMarketType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents txt_Remark As PSMGlobal.SelectLabelText
+    Friend WithEvents txt_Tolerance As PSMGlobal.SelectLabelText
+    Friend WithEvents cmb_CheckInPurchasingOrder As PSMGlobal.SelectPeaceCombo
+    Friend WithEvents cmb_CheckOutPurchasingOrder As PSMGlobal.SelectPeaceCombo
+    Friend WithEvents PeaceLabel4 As PSMGlobal.PeaceLabel
+    Friend WithEvents PeaceLabel5 As PSMGlobal.PeaceLabel
+    Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckRelationType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckRelationType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents txt_cdDeliveryTerm As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents pcl_CheckField As DevExpress.XtraEditors.PanelControl
+    Friend WithEvents txt_cdUnitPrice As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_DateExchange As PSMGlobal.SelectPeaceCalSin
+    Friend WithEvents txt_PriceExchange As PSMGlobal.SelectLabelText
+    Friend WithEvents Tlp_1 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents txt_cdPaymentTerm As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_cdPaymentTime As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents txt_cdPaymentDay As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents tlt_CheckUse As PSMGlobal.PeaceLabel
+    Friend WithEvents PeacePanel4 As PSMGlobal.PeacePanel
+    Friend WithEvents opt_XCHK1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents opt_XCHK0 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents txt_cdSubProcess As PSMGlobal.SelectPeaceHLPButton
+    Friend WithEvents TableLayoutPanel2 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents rad_CheckType2 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents rad_CheckType1 As PSMGlobal.PeaceRadioButton
+    Friend WithEvents PeaceLabel6 As PSMGlobal.PeaceLabel
+    Friend WithEvents txt_cdTax3 As PSMGlobal.SelectPeaceHLPButton
+End Class

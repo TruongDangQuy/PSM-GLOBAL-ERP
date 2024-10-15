@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QTool
+</name>
+</assembly>
+<members>
+<member name="P:QTool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:QTool.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:QTool.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:QTool.QExcell.SumGrp1">
+	<summary>
+ Có sum hoặc count theo grp1 hay không
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.SumGrp2">
+	<summary>
+ Có sum hoặc count theo grp2 hay không
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.SumGrp3">
+	<summary>
+ Có sum hoặc count theo grp3 hay không
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.Total_Cur_Ro">
+	<summary>
+ Thể hiện tổng số dòng hiện có trong file excell
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.NameTongcong1">
+	<summary>
+ Tên tiêu đề tổng cộng của group 1
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.NameTongcong2">
+	<summary>
+ Tên tiêu đề tổng cộng của group 2
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.NameTongcong3">
+	<summary>
+ Tên tiêu đề tổng cộng của group 3
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.NameTongcong">
+	<summary>
+ Tên tiêu đề tổng cộng của group tổng
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QTool.QExcell.QDestSave">
+	<summary>
+ Đường dẫn lưu trữ file Excell tạm, mặc định là ổ đĩa C
+ </summary>
+	<remarks></remarks>
+</member><member name="M:QTool.QExcell.ExportExellTemplate(System.String,System.Double,System.Data.DataTable,System.Object[],System.Boolean,System.String,System.String,System.String,System.Collections.Hashtable,System.Collections.Hashtable,System.Boolean,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Data.DataTable,System.Int32,System.Int32,System.Boolean,System.Data.DataTable,System.Int32,System.Int32,System.Boolean,System.Data.DataTable,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Int32)">
+	<summary>
+ Xuất dữ liệu ra file Excell mẫu
+ Thứ tự các cột từ bảng dữ liệu phải đúng tứ tự cột trong file Excell mẫu
+ Nếu có group thi các cột group trong bảng dữ liệu phải được đặt trước các cột còn lại
+ Chú ý file excell luôn phải để trống cột đầu tiên (nhìn cho đẹp --&gt; đặc thù, không hỏi tại sao)
+ </summary>
+	<param name="FilePath">Đường dẫn của file excell mẫu</param>
+	<param name="RowStart">Dòng bắt đầu đỗ dữ liệu</param>
+	<param name="tblExport">Bảng dữ liệu cần đỗ</param>
+	<param name="arrCol">Số cột cần xuất nếu bảng dữ liệu có nhiều cột mà chỉ cần xuất 1 vài cột</param>
+	<param name="Rownumber">Có hiện thị cột số thứ tự không</param>
+	<param name="GrpCol1">Tên cột group thứ nhất</param>
+	<param name="GrpCol2">Tên cột group thứ hai</param>
+	<param name="GrpCol3">Tên cột group thứ ba</param>
+	<param name="SumCol">Tên cột cần sum theo group</param>
+	<param name="CountCol">Tên cột cần count theo group</param>
+	<param name="OPenFile">Xuất dữ liệu xong có mở file lên không </param>
+	<param name="ReportTitle">Tiêu đề 1 cần điền trong file Excell</param>
+	<param name="ReportTitle_X">Vị trí dòng để điền tiêu đề 1</param>
+	<param name="ReportTitle_Y">Vị trí cột để điền tiêu đề 1</param>
+	<param name="ReportTitle1">Tiêu đề 2 cần điền trong file Excell</param>
+	<param name="ReportTitle_X1">Vị trí dòng để điền tiêu đề 2</param>
+	<param name="ReportTitle_Y1">Vị trí cột để điền tiêu đề 2</param>
+	<param name="ReportTitle2">Tiêu đề 3 cần điền trong file Excell</param>
+	<param name="ReportTitle_X2">Vị trí dòng để điền tiêu đề 3</param>
+	<param name="ReportTitle_Y2">Vị trí cột để điền tiêu đề 3</param>
+	<param name="tbl1">Bảng dữ liệu 1 cần xuất ra excell o vị trí bất kỳ</param>
+	<param name="Ro1">Vị trí dòng bắt đầu của file excell của bảng 1 </param>
+	<param name="Co1">Vị trí cột kết thúc của file excell của bảng 1 </param>
+	<param name="tbl2">Bảng dữ liệu 2 cần xuất ra excell o vị trí bất kỳ</param>
+	<param name="Ro2">Vị trí dòng bắt đầu của file excell của bảng 2 </param>
+	<param name="Co2">Vị trí cột kết thúc của file excell của bảng 2 </param>
+	<param name="tbl3">Bảng dữ liệu 3 cần xuất ra excell o vị trí bất kỳ</param>
+	<param name="Ro3">Vị trí dòng bắt đầu của file excell của bảng 3 </param>
+	<param name="Co3">Vị trí cột kết thúc của file excell của bảng 3 </param>
+	<remarks>Export to Excell template</remarks>
+</member><member name="M:QTool.QExcell.RefreshEx">
+	<summary>
+ Giải phóng các process của Excell đang sử dụng
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,5 @@
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\ProtectedData\bin\Debug\ProtectedData.exe.config
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\ProtectedData\bin\Debug\ProtectedData.exe
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\ProtectedData\bin\Debug\ProtectedData.pdb
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\ProtectedData\obj\Debug\ProtectedData.exe
+E:\Source GitHub\PSMChangShuen\Sources\SyncSqlData\SyncSqlData\ProtectedData\obj\Debug\ProtectedData.pdb
